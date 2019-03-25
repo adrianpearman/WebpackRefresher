@@ -13,7 +13,7 @@ export const run = (alertService, componentService) => {
             componentService.setResult(numA + numB)
         }else{
             componentService.setResult('')
-            alertService.handleAdditionErrors(inputs, parsedInputs)
+            alertService.handleAdditionError(inputs, parsedInputs)
         }
     })
 }

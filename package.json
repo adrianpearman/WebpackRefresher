@@ -1,0 +1,15 @@
+{
+  "name": "WebpackRefresher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:adrianpearman/WebpackRefresher.git",
+  "author": "Adrian Pearman <adrianpearman12@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
